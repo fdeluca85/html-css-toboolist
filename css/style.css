@@ -71,35 +71,27 @@
     padding: 4px;
     font-size: 15px;
 }
+.categoria{text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;    
+}
 .editorial{
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-size: 15px;
-    background-color: #45ABEA; 
-    border-radius: 10px;    
+    background-color: #45ABEA;         
 }
-.Q1{
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-size: 15px;
+.q1{
     background-color: #9C72E4; 
-    border-radius: 10px;    
 }
-.Recruiting{
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-size: 15px;
+.recruiting{
     background-color: #64C0A9; 
-    border-radius: 10px;    
 }
-.Mobile{
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-size: 15px;
+.mobile{
     background-color: #F29E33; 
-    border-radius: 10px;    
+}
+.website{
+    background-color: #D863A1; 
+}
+.sales{
+    background-color: #B0C926; 
 }
