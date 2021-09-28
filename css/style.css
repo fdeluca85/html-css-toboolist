@@ -14,7 +14,9 @@
     height: 800px;
     border-radius: 15px;
     }
-
+    hr {
+        border-top: 1px solid #F6F8F9;
+      }
     /* header */
     
     #logo {
@@ -29,17 +31,22 @@
     }
 
     /* main */
-
+    /* bottoni navbar*/
     .riga-bottoni{
         margin: 10px;
         padding: 20px 80px;
     }
-    hr {
-        border-top: 1px solid #F6F8F9;
-      }
-
-      button {border-radius: 7px;
+        button {
+        border-radius: 7px;
         padding: 10px 10px;
         color: ivory;}
 
-        #task{background-color: lightseagreen;}
+        #task{
+        border-color: #47ADF1;
+        background-color: #47ADF1;
+        }
+        #section{
+            background-color: white;
+            color: lightgrey;
+            border-color: lightgrey;
+            }
