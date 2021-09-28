@@ -54,6 +54,23 @@
             color: lightgrey;
             border-color: lightgrey;
             }
+
+.circle-green{border: 1px solid #75C9B6;
+    color: #75C9B6;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 15px;
+}
+.circle-red{border: 1px solid red;
+    color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 15px;
+}
 .editorial{
     color: white;
     text-align: center;
@@ -62,11 +79,27 @@
     background-color: #45ABEA; 
     border-radius: 10px;    
 }
-.circle{border: 1px solid #75C9B6;
-    color: #75C9B6;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    padding: 4px;
+.Q1{
+    color: white;
+    text-align: center;
+    padding: 5px;
     font-size: 15px;
+    background-color: #9C72E4; 
+    border-radius: 10px;    
+}
+.Recruiting{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #64C0A9; 
+    border-radius: 10px;    
+}
+.Mobile{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #F29E33; 
+    border-radius: 10px;    
 }
