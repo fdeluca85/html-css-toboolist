@@ -1,97 +1,109 @@
     body{
-    background-color: #F7F8FB;
-    font-family: 'Roboto', sans-serif;
-    }
+        background-color: #F7F8FB;
+        font-family: 'Roboto', sans-serif;
+        }
+    hr {
+        border: 1px solid #F6F8F9;
+        margin: 2px;
+      }
+    p{
+        margin-top:2px;
+        }
+    h2 {
+        margin-bottom: 2px;
+        }
+    
+/* ******generale****** */
     .container {
-    background-color: #FFFFFF;
-    width: 100%;
-    }
+        background-color: #FFFFFF;
+        width: 100%;
+        }
     .container-centrale{
-    background-color: #fff;
-    margin: auto;
-    margin-top: 50px;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 50px;
         width: 80%;
         border-radius: 15px;
-
-    }
+        }
     .container-md {
         width: 90%;
         margin:auto;
+        padding: 10px;
     }
-    hr {
-        border-top: 1px solid #F6F8F9;
-      }
-    /* header */
     
+/* ********header******** */
     #logo {
-    height: 70px;
-    vertical-align: middle;
-     margin: 10px 0;
-    }
+        height: 70px;
+        vertical-align: middle;
+        margin: 10px 0;
+        }
     .logo-txt {
-    font-weight: bolder ;
-    font-size: 50px;
-    vertical-align: middle;
+        font-weight: bolder ;
+        font-size: 50px;
+        vertical-align: middle;
     }
 
-    /* main */
-    /* bottoni navbar*/
+/* *********main*********** */
+
+/* *********bottoni********* */
     .riga-bottoni{
-        margin: 10px;
-        padding: 20px ;
+        padding: 10px ;
     }
-        button {
+    button {
         border-radius: 7px;
         padding: 10px 10px;
         color: ivory;}
 
-        #task{
+    #task{
         border-color: #47ADF1;
         background-color: #47ADF1;
         }
-        #section{
+    #section{
             background-color: white;
             color: lightgrey;
             border-color: lightgrey;
             }
 
-.circle-green{border: 1px solid #75C9B6;
-    color: #75C9B6;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    padding: 4px;
-    font-size: 15px;
-}
-.circle-red{border: 1px solid red;
-    color: red;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    padding: 4px;
-    font-size: 15px;
-}
-.categoria{text-align: center;
-    padding: 5px;
-    font-size: 15px;
-    border-radius: 10px;
-    color: white;    
-}
-.editorial{
-    background-color: #45ABEA;         
-}
-.q1{
-    background-color: #9C72E4; 
-}
-.recruiting{
-    background-color: #64C0A9; 
-}
-.mobile{
-    background-color: #F29E33; 
-}
-.website{
-    background-color: #D863A1; 
-}
-.sales{
-    background-color: #B0C926; 
-}
+/* ********check & cross******* */
+    .circle{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        padding: 4px;
+        font-size: 15px;
+    }
+    .green1{
+        border: 1px solid #75C9B6;
+        color: #75C9B6;
+    }
+    .red1{
+        border: 1px solid red;
+        color: red;
+    }
+
+/* *******categorie******* */
+    .categoria{
+        text-align: center;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 10px;
+        color: white;    
+    }
+    .editorial{
+        background-color: #45ABEA;         
+    }
+    .q1{
+        background-color: #9C72E4; 
+    }
+    .recruiting{
+        background-color: #64C0A9; 
+    }
+    .mobile{
+        background-color: #F29E33; 
+    }
+    .website{
+        background-color: #D863A1; 
+    }
+    .sales{
+        background-color: #B0C926; 
+    }
